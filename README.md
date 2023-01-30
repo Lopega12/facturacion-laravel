@@ -22,10 +22,15 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Steps
+1.
  ```shell
 composer install
 ```
-crear tu fichero .env copiando el fichero env.example
+2. Crea tu fichero .env copiando el fichero env.example.
+3. Ejecutar:
+```shell
+php artisan optimize
+```
 ### Para habilitar el scheduler en tu local
 ```shell
 php artisan schedule:work
