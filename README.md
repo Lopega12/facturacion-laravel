@@ -25,6 +25,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
  ```shell
 composer install
 ```
+crear tu fichero .env copiando el fichero env.example
 ### Para habilitar el scheduler en tu local
 ```shell
 php artisan schedule:work
